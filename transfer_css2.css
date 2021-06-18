@@ -1,0 +1,30 @@
+body {
+    background-color: teal;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+
+.cadre {
+    background-color:teal;
+    border-color: whitesmoke;
+    width: 60%;
+    min-height:649px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5mm solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(238, 238, 238, 0.60);
+    
+}
+.montitre {
+    font-size: 1cm;
+}
+
+
+
+
