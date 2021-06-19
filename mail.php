@@ -53,8 +53,8 @@ var_dump($file);
 
 // Create the Transport
 $transport = (new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl'))
-  ->setUsername('b.aissani74@gmail.com')
-  ->setPassword('20000lslmdJV')
+  ->setUsername('')
+  ->setPassword('')
 ;
 
 // Create the Mailer using your created Transport
@@ -62,7 +62,7 @@ $mailer = new Swift_Mailer($transport);
 
 // Create a message
 $message = (new Swift_Message('Mon mailer'))
-  ->setFrom(['b.aissani74@gmail.com'])
+  ->setFrom([''])
   ->setTo([$email, $email => 'Himbra'])
   ->setBody($corpsEmail)
   ;
